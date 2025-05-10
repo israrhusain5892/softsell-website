@@ -1,7 +1,8 @@
 // src/components/ChatBot.jsx
 import React, { useState } from 'react';
 import { IoMdSend } from "react-icons/io";
-const OPENAI_API_KEY=import.meta.env.OPENAI_API_KEY; // ⚠️ For testing ONLY
+
+const OPENAI_API_KEY="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"; 
 
 const ChatBot = () => {
   const [messages, setMessages] = useState([]);
@@ -19,6 +20,8 @@ const ChatBot = () => {
     setLoading(true);
 
     try {
+
+    
       const response = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
@@ -26,7 +29,7 @@ const ChatBot = () => {
           Authorization: `Bearer ${OPENAI_API_KEY}`,
         },
         body: JSON.stringify({
-          model: "gpt-3.5-turbo",
+          model: "gpt-4.1",
           messages: [{ role: "user", content: userMessage }],
         }),
       });

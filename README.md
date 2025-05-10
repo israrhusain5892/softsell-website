@@ -30,6 +30,10 @@ This site showcases how users can sell unused software licenses in three easy st
   - Fields: Name, Email, Company, License Type (dropdown), Message  
   - Front-end validation for required fields and proper formatting
 
+  - **Chat Box /**  
+  - Fields:  Message  
+  - Implementd chat section by using AI api.
+
 ## 🎨 Design Choices
 
 - **Framework**: React.js with Vite for fast development and build  

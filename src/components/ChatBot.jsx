@@ -1,7 +1,7 @@
 // src/components/ChatBot.jsx
 import React, { useState } from 'react';
 import { IoMdSend } from "react-icons/io";
-const OPENAI_API_KEY = "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"; // ⚠️ For testing ONLY
+const OPENAI_API_KEY=import.meta.env.OPENAI_API_KEY; // ⚠️ For testing ONLY
 
 const ChatBot = () => {
   const [messages, setMessages] = useState([]);

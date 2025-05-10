@@ -60,7 +60,7 @@ This site showcases how users can sell unused software licenses in three easy st
 
 ## 🔗 Live Demo
 
-➡️ [View Live Site](https://your-vercel-link.vercel.app)  
+➡️ [View Live Site](https://softsell-website-pi.vercel.app/)  
 *(Replace with actual URL)*
 
 ## 📂 Setup Instructions
